@@ -1,0 +1,19 @@
+Quando se usa git, os comandos começam com git:
+
+git init 
+git add
+git add *
+git status
+git commit
+git push 
+git config ...
+
+Temos:
+ls
+cd
+cd .. 
+mkdir
+
+Entre outros, mas esses foram o que mais usei durante o DIO.
+
+
