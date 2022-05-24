@@ -1,0 +1,105 @@
+Quais são as variaveis e como funcionam:
+
+var: Escoppo global e local, pode ter seu valor alterado, se não tiver um valor incial será tratada como null.
+
+let: Escopo local de bloco, pode te seu valor alterado, se não tiver um valor inicial será tratada como null.
+
+const: Escopo local de bloco, somente leitura do valor inicial obrigatorio e não pode ser alterado. 
+
+exemplos: Var
+
+var varialvel;
+console.log(variavel) 
+
+fica: Null, pois não defini o valor da vcarialvel
+
+var variavel = 'diana'; // aqui a variavel tem o valor "diana"
+variavel = susana;      // aqui pode-se alterar o valor "diana" para "susana" pois é uma varaivel que pode alterar o valor.
+console.log(variavel)
+
+Exemplos: let
+.
+let variavel2 = 'diana' // variavel com valor 'diana'.
+variavel = 'martine'    // alteração do valor da variavel igual ao "var".
+console.log(variavel2)
+
+Exemplos: const
+
+const constante;       // vai dar erro no console pois é obrigatorio o valor de const.
+console.log(constante)
+
+const constante = 'Ana';
+console.log(constante);
+
+const constante = 'Ana';  // vai dar erro pois o calor de const nao pode ser alterado.
+constante = 'olivia';
+console.log(constante);
+
+ESCOPOS:
+
+Escopo global: Quando a variavel é definida fora de qualquer bloco, sua visibilidade fica diponivel e todo o codigo.
+
+Escopo local: Quando a varivel é definida dentro de um bloco, sua visibilidade pode ficar disponivel ou não.
+
+Exemplo: 
+
+var escopoGlobal = 'global'; // Fora de qualquer bloco e sendo vista no console.
+console.log(escopoGlobal);
+
+function escopoLocal() {             
+  let escopoLocalInterno = 'local';  // Dentro de um bloco(function) e não tendo visibilidade no console e aparecendo como "erro".
+ }
+
+console.log(escopoLocalInterno);  
+
+
+resolvendo:   Assim fica visivel no console mesmo estando dentro de um bloco.
+
+function escopoLocal() {
+  let escopoLocalInterno = 'local';
+  console.log(escopoLocalInterno);
+ }
+
+  escopoLocal();
+
+Regras de uso de Variavel:
+
+Iniciar com letras Underscore _ ou $ cifrão, não iniciar com números. 
+Ex: var 1nome// ERRADO
+var nome / var_nome // correto
+
+Não usar espaços(use o camelcase ou _)
+Ex: var nome completo //ERRADO
+var nomeCompleto ou Nome_completo //correto
+
+Não usar palavras reservadas:
+Ex var function //ERRADO
+
+Declarar variaveis no topo do bloco de código.
+
+
+Diferença entreo atribuição, comparação e comparação identica:
+
+Sinal "=": Ler Receber (Atribuição)
+
+var nome = "meu_nome" // var nome RECEBE meu_nome
+
+Sinal "==": (comparação)
+
+Ex: como declarar "0==0;;
+como ler: "0" tem o valor igual a "0" ? 
+
+//nesse caso retorna true
+
+Sinal "===" (comparação identica)
+
+var comparaçaoIdentica = '0' === 0;
+console.log(comparaçaoIdentica);
+
+return false //pois o '0' é string diferentemente do 0, valores iguais mas tipos diferentes.
+
+
+
+
+
+

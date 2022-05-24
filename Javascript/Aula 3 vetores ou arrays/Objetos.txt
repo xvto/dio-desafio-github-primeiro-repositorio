@@ -1,0 +1,19 @@
+Objetos:
+ Dadis qye possuem prrpriedades e valores que fefinem suas caracteristicas. Deve ser declarado entrre chabces "{}".
+
+Ex: imagine uma xicara azul, ela tem cor pode ter varios tamanhos e funçoes(quero cafééé).
+Pode ser declarada assim:
+
+var xicara = {
+ cor: 'azul',
+ tamanho 'p',
+ funcao: tomarCafe()
+{
+
+Manipulando Objetos:
+As propriedades de objetos podem ser atribuidas á variaveis, facilitando a manipulação do objeto. Chamamos isso de desestruturação.
+Ex: var xicara = {cor: 'azul, tamanho: 'p', funcao: tomarCafe()}
+
+var cor = xicara.com;
+var tamanho = xicara.tamanho;
+var funcao = tomarCafe();
