@@ -1,5 +1,5 @@
 Objetos:
- Dadis qye possuem prrpriedades e valores que fefinem suas caracteristicas. Deve ser declarado entrre chabces "{}".
+ Dados que possuem prrpriedades e valores que definem suas caracteristicas. Deve ser declarado entrre chabces "{}".
 
 Ex: imagine uma xicara azul, ela tem cor pode ter varios tamanhos e funçoes(quero cafééé).
 Pode ser declarada assim:
