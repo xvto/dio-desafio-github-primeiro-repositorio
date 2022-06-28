@@ -1,0 +1,15 @@
+Atribuição de valores:
+
+Case type                   //  Example
+
+Original variable as string // some awesome var 
+
+Camel Case                  // someAwesomeVar //Usado bastante 
+
+Snake Case                  // some_awesome_var
+
+Kabab Case                  // some-awesome-var
+
+Pascal Case                 // SomeAwesomeVar
+
+UPPER CASE SNAKE CASE       // SOME_AWESOME_VAR // Usado bastante 

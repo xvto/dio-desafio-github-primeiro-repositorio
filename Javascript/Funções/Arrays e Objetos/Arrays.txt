@@ -1,0 +1,7 @@
+ARRAYS
+
+Spread: uma forma de lidar separadamente com elementos // Usa quando chama a função
+
+O que era parte de um array se torna um elemento independente;
+
+Rest: combina os argumentos em um array; // Usa quando declara a função

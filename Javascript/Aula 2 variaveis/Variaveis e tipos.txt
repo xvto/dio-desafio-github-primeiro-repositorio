@@ -1,0 +1,74 @@
+VAR, LET E CONST:
+
+
+                  VAR   /  CONST / LET 
+
+ESCOPO: GLOBAL OU LOCAL / BLOCO / BLOCO
+
+REDECLARAR:      sim   / não    / não
+
+REATRIBUIR:      sim   / não    / sim
+
+HOISNTING:       sim   / não    / não
+
+ESTRUTURA DE DADOS:
+
+TIPOS PRIMITIVOS:
+
+NUMBERS, STRINGS, BOOLEAN:
+
+não tem metodos dentro deles e são escritos com letras minuscula.
+
+
+TIPOS NÃO PRIMITIVOS: 
+
+OBJETOS E ARRAYS.
+
+
+
+Strings:
+
+São textos ou dados de texto, declarado entre "..."(aspas) ou `...`(crases)
+
+Métodos importantes:
+
+Concatenação.
+Propriedade length.
+Iterabilidade.
+Formatação.
+
+
+Number:
+
+* Numeros inteiros ou decimais.
+* Declaração normal sem aspas.
+
+Booleans:
+
+valores True ou False.
+
+Ex: let validantion 3 === 0
+
+validation = false
+
+
+Objetos:
+
+
+let person = {
+
+keys -->  name: 'john''  --> valores
+          age: 20        --> valores
+
+};
+
+
+
+
+
+
+
+
+
+
+

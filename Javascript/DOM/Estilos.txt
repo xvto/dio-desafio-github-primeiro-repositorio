@@ -1,0 +1,8 @@
+Classes 
+
+Element.classList // propriedade do elemento // lista de classes
+
+
+Acessando diretamente o CSS de um elemento
+
+document.getElementsByTagName("p").style.color = "blue";

@@ -1,0 +1,46 @@
+Operadores de atribuição:
+
+Operador "=" (x=y) x atribui y
+Operador "+=" (x+=y) equivalente a x= x+y
+Operador "*=" (x*=y) equivalente a x= x*y
+Operador "/=" (x/=y) equivalente a x= x/y
+Operador "%=" (x%=y) equivalente a x= x%y
+
+ps: fazendo a conta por tras dos "panos"
+
+Operadores de Aritimética:
+
++   // adição
+-   // subtração
+*   // multiplicação
+**  // Exponencial
+/   // divisão
+%   // módulo
+++  // incrementar
+--  // decrementar
+ 
+Operadores de comparação:
+
+      Descrição:
+
+==  // igual a
+=== // mesmo valor e tipo
+!=  // diferente
+!== // valores diferentes
+>   // maior que
+<   // menor que
+>= // maior igual
+<== //menor igual
+
+Operadores de Lógica:
+
+&&  "e" lód
+duas barras retas: "ou" lógico
+! "não" lógico 
+
+Operador condicional (ternário)
+
+(condition) ? expression1 : expression2
+
+Se minha condition for verdadeira execute a expressao 1 e "se não" execute a minha expressao 2.
+

@@ -1,0 +1,13 @@
+Metodos
+
+ADICIONAR ELEMENTOS:
+
+document.createElement(element) cria um novo elemento html
+document.appendChild(element) adiciona um elemento
+
+REMOVER:
+document.removeChild(element) remove um elemento
+
+SUBSTITUIR:
+
+document.replaceChild(new, old) substitui um elemento

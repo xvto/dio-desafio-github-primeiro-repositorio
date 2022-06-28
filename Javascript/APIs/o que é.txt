@@ -1,0 +1,10 @@
+O que é API?
+
+Uma APIé uma forma de intermediar os resultado do back-end com o que é apresentado no front-end, você consegue acessáça por meio de URLs.
+
+MÉTODO FETCH:
+
+"fetch(url, options)"
+
+Sempre converter em json, caso venha com string.
+Retorna uma promises, sempre usar o await. 

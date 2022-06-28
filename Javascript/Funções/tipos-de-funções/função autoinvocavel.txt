@@ -1,0 +1,56 @@
+FUNÇÃO AUTOINVOCÁVEL
+
+IIFE(Immediately Invoked Function Expression)
+
+Uma função anónima entre parênteses, seguida por outra par de pareênteses, que representa sua chamada;
+
+(
+  function() {
+    let name + "Digital Innovation One"
+    return name;
+ }
+)();
+
+Também pode ser utilizada com parametros ou armanezada em uma variavel;
+
+( 
+  function(a,b) {
+	return a + b;
+}
+)(1,2);
+
+ou 
+
+const soma = 3 (
+   function() {
+	return a + b;
+  }
+)(1, 2);
+
+console.log(soma3)
+
+
+CALLBACKS:
+
+Utilizando callbaccks você tem maior controle da ordem de chaamdas
+
+/* const calc = function(operacao , num1, num2){
+                     return operacao(num1, num2);
+
+}
+
+const soma = function(num1, num2){
+                return num1 + num2;
+}
+
+const sub = function(num1, num2){
+            return num1 - num2;
+}
+
+const resultSoma = calc(soma, 1, 2);
+const resultSub = calc(sub, 1, 2);
+
+console.log(resultSoma); //3
+console.loh(resultSub); //-1
+
+		

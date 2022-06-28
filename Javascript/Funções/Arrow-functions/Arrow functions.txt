@@ -1,0 +1,21 @@
+Sintaxe 
+
+representada por "=>" 
+ 
+const helloWorld = () => "Hello World" 
+
+const helloWorld = () => {
+return "Hello World";
+}
+
+1° Quando se tem uma linha só ele presume que o retorno é só isso.
+2° Caso exista apenas um parametro pode, pode dispensar os parenteses.
+
+1° const soma = (a, b) => a + b;
+
+soma(4, 6);
+//10
+
+2° const soma = a => a;
+soma(4);
+// 4

@@ -1,0 +1,7 @@
+Loops
+
+if/else
+
+Condição 
+Declaração 1 --> Dentro de um if = ocorre caso a condição seja verdadeira.
+Declaração 2 -->  Dentro de um else = Ocorre caso a condição seja falsa.

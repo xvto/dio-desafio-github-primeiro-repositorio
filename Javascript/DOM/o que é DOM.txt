@@ -1,0 +1,15 @@
+DOM
+
+
+DOM = DOCUMENT OBJECT MODEL
+
+O DOM HTML é um padrão de como acessar e modificar elementos html de uma página.
+
+
+DOM vs BOM 
+
+BOM = BROWSER OBJECT MODEL // tudo que está dentro do objeto window.
+
+		WINDOW
+                   
+ DOCUMENT HISTORY LOCATION SCREEN NAVIGATOR

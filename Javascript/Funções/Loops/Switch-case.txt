@@ -1,0 +1,5 @@
+Switch/Case
+
+* Equivale a uma comparaçãp tipo e valor (===)
+* Sempre precisa de um valor "default"
+* Ideal para quando se precisa comparar muitos valores

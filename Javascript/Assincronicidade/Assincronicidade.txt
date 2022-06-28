@@ -1,0 +1,30 @@
+Assíncrono
+É o que não ocorre ou não se efetiva ao mesmo tempo.
+
+Definição
+
+Javascrpit roda de maneira sícrona.
+
+O que é síncrona e assíncrona?
+
+Enquanto a comunicação síncrona refere-se ao contato imediato entre o emissor (quem envia a mensagem) e o receptor (quem recebe a mensagem), a comunicação assíncrona é atemporal. Ou seja, na comunicação assíncrona o emissor envia a mensagem, mas não necessariamente o receptor irá recebê-la imediatamente
+
+Promises (promessa)
+
+Objeto de processamento assíncrono
+
+Inicialmente seu valor é desconhecido. Ele pode então ser resolvida ou rejeitada.
+
+Promises tem 3 ESTADOS:
+
+1) Pending
+2) Fulfilledd
+3) Rejected
+
+ESTRUTURA:
+
+const myPromise = new Promise((resolve, reject) => {
+	window.setTimeout(() => {
+		resolve(console.log('Resolvida));
+	}, 2000);
+});

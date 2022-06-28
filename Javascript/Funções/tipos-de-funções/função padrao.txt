@@ -1,0 +1,10 @@
+VARIÁVEIS CRIADAS DENTRO DE UMA FUNÇÃO APENAS PODEM SER UTILIZADAS DENTRO
+
+function nome(parametros) {
+// instruções
+return // valor de retorno 
+}
+
+Quando invocamos o "return", a função deixa de ser executada.
+
+

@@ -1,0 +1,25 @@
+TIPOS DE EVENTOS
+
+*Eventos do mouse*
+
+mouseover, mouseout
+
+*Eventos de clique*
+
+click, dbclick
+
+*Eventos de atualização*
+
+Change, load
+
+
+Acionar eventos
+
+
+Event listener:
+
+Diretamento no Javascript, cria um evento que vai ser acionado no moento em que o usuário realizar determinada ação.
+
+const botao = document,getElementById("meuBotao"); 
+
+botao.addEventListener("click", outraFuncao);

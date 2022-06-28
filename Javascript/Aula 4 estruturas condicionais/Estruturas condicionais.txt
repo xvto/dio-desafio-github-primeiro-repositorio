@@ -1,0 +1,74 @@
+Estrutura condicional IF(if)
+
+Podemos usar palavras reservadas "if" para estabelcer uma condição:
+
+Ex:  var jogador 1 = 0;
+     var jogador 2 = 0;
+      
+     if (jogador1 > 0) {
+         console.log('jogador1 marcou um ponto!')
+         }
+
+// como let: se o jogador 1 tiver valor maior que 0 ele marcou 1 ponto;
+
+Estrutura condiconal "esle"
+
+No caso de a consição não ser atendida podemos usar o "else"
+
+Ex: var jogador1 = 1;
+    var jogador2 =0;
+
+if(jogador1 > 0) {
+     console.log('jogador1 marcou ponto');
+ } else {
+     console.log('ninguém marcou ponto');
+ }
+
+Estrutura condicional "else if" 
+
+Caso haja mais de uma condição usamos o "else if".
+
+Ex var jogador1 = 1;
+   var joagdor2 = 0;
+
+if(jogador1 > 0) {
+    console.log('jogador1 marcou ponto');
+ } else if (jogador2 > 0) {
+    console.log('jogador2 marcou ponto');
+ } else {
+    console.log('ninguém marcou ponto');
+ }
+
+Ninho de "if"
+
+Podemo temém usar o  ""if" dentro de outro "if", chamamos isso de aninhamento de if's ou nunho de if's.
+Ex: if(jogador1 = -1) {
+         if(jogador > 0) {
+              console.log(1jogador1 marcou ponto');
+    } esle {
+              console.log('ninguém marcou ponto');
+    }
+    } else {
+              console.log('jogador inválido');
+    }
+
+"if ternário"
+
+Podemos também fazer uma verificação em uma unica linha usando o "if" ternário:
+
+Ex: [condição] ? [instrução1] : [instrução2];
+
+jogador 1 > 0 ? console.log('marcou ponto') : console.log('nar marcou ponto'');
+ 
+//lembre de usar a interrogação "?" e dois ponto ":".
+
+Usando o "switch/case" funciona como um estrutura condicional também;
+
+Ex: switch (${expressao}) {
+case 1:
+       ${instrucao};
+break;
+case 2:
+       ${instrucao};
+break;
+}

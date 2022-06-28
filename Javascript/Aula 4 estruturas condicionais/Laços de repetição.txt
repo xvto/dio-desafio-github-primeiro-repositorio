@@ -1,0 +1,79 @@
+Laços de repetição
+
+São estruturas condicionais que repetem uma instrução até atiginri uma determinada condição:
+
+* For
+* For/in;
+* For/of;
+* While;
+* Do/while;
+
+For:
+
+Funciona como uma repetição de instrução até que a condição seja falsa:
+
+for ([expressaoInicial]; [condicao]; [incremento] ) {
+ declaracao }
+
+Ex: var array = ['valor1', 'valor2', 'valor3', 'valor4']
+
+for (let i = 0 i < array length; i++) {
+         console.log(i);
+}
+
+
+"For/in"
+
+Funciona como uma repetição a partir de uma propriedade:
+
+for([indice] in [objeto ou array]) {
+declaracao }
+
+Ex: var array = ['valor1', 'valor2', 'valor3', 'valor4']
+
+    for (i in array) {
+             console.log(i)
+    }
+
+"For/of" 
+Funciona como uma repetição a partir de um valor:
+
+for([indice] of [array]) {
+declaracao }
+
+Ex: var array = ['valor1', 'valor2', 'valor3', 'valor4']
+
+for(i of array) {
+    console.log(i);
+}
+
+O for/of não funciona com objetos pois as propriedade variam, diferentes do índice em um array que sempre serão numeros inteiros.
+
+Mas e se eu quiser pegar o valor mesmo assim?
+Ex: for (i of object.propriedade) {
+      console.log(i);
+}
+// porém cada caractere dentro do valor será impresso em linhas separadas
+
+"While"
+
+Executa uma instrução enquanto determinada condição for verdadeira, a verificação é feita antes da execução:
+
+Ex: var a = 0;
+while (a<10) {
+       a++;
+       console.log(a);
+}
+
+//como ler: enquanto a variavel a for menor que 10 ela vai receber mais um e imprimir no console
+
+"do/while"
+Executa uma intrução "até que" uma determinada condição seja falsa, a verificação é feita depois da execução:
+
+Ex: var a = 0;
+    do {
+         a++;
+         console.log(a);
+       } while (a <10)
+
+//como ler, a cariavel a vai recever mais um e imprimir no console até que seu valor chegue a 10.
